@@ -1,0 +1,36 @@
+一、什么是程序：
+计算机执行某些操作或解决某个问题而编写的一系列指令
+
+
+
+二、idea创建一个java项目
+1、file—new—project
+2、选择第一个—java，默认jdk，点击 Next 进行下一步
+3、勾选Create project from template（网上说勾选上 Java Hello World 后会生成一个默认的 Hello world 文件，我这里没有出现这个选项），点击 Next 进行下一步
+4、给项目命名，默认是 untiled，最后点击 finish
+5、项目创建完成
+
+
+
+三、java诞生小故事
+1、sun公司创建java语言，1995年发布第一个版本，后来甲骨文公司收购了sun
+2、Java之父：詹姆斯·高斯林
+
+
+
+四、java语言特性
+
+1、oop，面向对象
+2、是健壮的
+3、跨平台性。一个编译好的.class文件可以在多个系统下运行，这种特性称为跨平台性。
+class文件在多个系统都能执行是因为有了jvm，即java虚拟机【JVM java virtual machine】，jvm是存在jdk中的
+
+
+4、是解释型的。
+
+
+
+五、JDK和JRE
+1、JDK全称（Java Development Kit  Java开发工具包），=JRE+java的开发工具【java，javac，javadoc，javap等】，可以编译和运行程序
+2、JRE全称（Java Runtime Environment  Java运行环境），=JVM+Java的核心类库，只能运行程序，不能编译
+

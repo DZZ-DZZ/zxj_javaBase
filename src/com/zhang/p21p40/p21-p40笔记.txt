@@ -1,0 +1,60 @@
+一、字符转义
+
+public class ChangeChar {
+    public static void main(String[] args) {
+        // \t：一个制表位，实现对齐的功能
+        System.out.println("北京\t天津\t上海");
+        // \n：换行符
+        System.out.println("jack\nsmith\nmary");
+        // \\：输出一个\
+        System.out.println("C:\\Windows\\System32\\cmd.exe");
+        // \"：一个"
+        System.out.println("老韩说：\"要好好学习java\"");
+        // \'：一个'
+        System.out.println("老韩说：\'要好好学习java\'");//单引号不转义也可以正常输出
+        // \r：一个回车
+        System.out.println("韩顺平教育\r北京");//按照视频解释应该正确输出北京平教育，但我只输出了北京
+    }
+}
+
+
+二、注释
+单行注释：//
+多行注释：/*注释内容  */
+文档注释：一般用于类或方法
+/**
+ * @author zhang
+ * @version 1.0
+ */
+
+
+三、简答
+
+
+
+
+四、变量
+
+1、变量表示内存中的一个存储区域[不同的变量，类型不通，占用的空间大小不通，如：int4个字节，double就是8个字节]
+
+2、该区域有自己的名称[变量名]和类型[数据类型]
+
+3、变量必须先声明，后使用，即有顺序
+
+4、该区域的数据可以在同一类型范围内不断变化
+
+5、变量在同一作用域内不能重名
+6、变量=变量名+值+数据类型，变量三要素
+*程序中+号的使用
+当左右两边都是数值，做加法运算
+当左右两边有一方为字符，做拼接运算
+
+
+五、数据类型
+
+1、java数据类型分为两大类：基本数据类型和引用类型
+
+2、基本数据类型有8种：数值型【byte，short，int，long，float，double】、char、boolean
+3、引用类型【类，接口，数组】
+
+
